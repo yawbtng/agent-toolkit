@@ -12,10 +12,30 @@
     "Productivity"
   ],
   "optionalPlugins": [
-    "yawbtng/agent-toolkit#plugins/core",
-    "yawbtng/agent-toolkit#plugins/design",
-    "yawbtng/agent-toolkit#plugins/frontend",
-    "yawbtng/agent-toolkit#plugins/knowledge",
-    "yawbtng/agent-toolkit#plugins/productivity"
+    {
+      "source": "git-subdir",
+      "url": "https://github.com/yawbtng/agent-toolkit.git",
+      "path": "plugins/core"
+    },
+    {
+      "source": "git-subdir",
+      "url": "https://github.com/yawbtng/agent-toolkit.git",
+      "path": "plugins/design"
+    },
+    {
+      "source": "git-subdir",
+      "url": "https://github.com/yawbtng/agent-toolkit.git",
+      "path": "plugins/frontend"
+    },
+    {
+      "source": "git-subdir",
+      "url": "https://github.com/yawbtng/agent-toolkit.git",
+      "path": "plugins/knowledge"
+    },
+    {
+      "source": "git-subdir",
+      "url": "https://github.com/yawbtng/agent-toolkit.git",
+      "path": "plugins/productivity"
+    }
   ]
 }
