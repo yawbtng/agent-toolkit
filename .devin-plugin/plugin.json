@@ -1,0 +1,21 @@
+{
+  "name": "agent-toolkit",
+  "version": "0.1.0",
+  "description": "Canonical cross-agent skill toolkit for engineering, design, frontend, knowledge work, and productivity.",
+  "author": {
+    "name": "Yaw Boadi"
+  },
+  "repository": "https://github.com/yawbtng/agent-toolkit",
+  "keywords": [
+    "Development Tools",
+    "Design",
+    "Productivity"
+  ],
+  "optionalPlugins": [
+    "yawbtng/agent-toolkit#plugins/core",
+    "yawbtng/agent-toolkit#plugins/design",
+    "yawbtng/agent-toolkit#plugins/frontend",
+    "yawbtng/agent-toolkit#plugins/knowledge",
+    "yawbtng/agent-toolkit#plugins/productivity"
+  ]
+}

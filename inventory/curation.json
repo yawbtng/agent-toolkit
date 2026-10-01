@@ -1,0 +1,98 @@
+{
+  "baseline": [
+    "accessibility",
+    "animation-accessibility",
+    "animation-performance",
+    "best-practices",
+    "brainstorming",
+    "code-deslop",
+    "codebase-design",
+    "copywriting",
+    "core-web-vitals",
+    "css-animations",
+    "design-taste-frontend",
+    "deslop",
+    "diagnosing-bugs",
+    "domain-modeling",
+    "emil-design-eng",
+    "figma",
+    "figma-implement-design",
+    "find-skills",
+    "frontend-design",
+    "gh-address-comments",
+    "hallmark",
+    "harden",
+    "motion-react",
+    "next-best-practices",
+    "optimize",
+    "performance",
+    "pick-ui-library",
+    "playwright-skill",
+    "prd",
+    "prompt-engineering",
+    "responsive-design",
+    "seo",
+    "skill-creator",
+    "skill-doctor",
+    "software-architecture",
+    "spec-interviewer",
+    "subagent-driven-development",
+    "systematic-debugging",
+    "test-audit",
+    "test-fixing",
+    "ui-skills",
+    "userinterface-wiki",
+    "using-git-worktrees",
+    "vercel-composition-patterns",
+    "vercel-react-best-practices",
+    "web-design-guidelines",
+    "web-quality-audit",
+    "webapp-testing"
+  ],
+  "optional_plugins": [
+    "agent-core",
+    "agent-design",
+    "agent-frontend",
+    "agent-knowledge",
+    "agent-productivity"
+  ],
+  "exclude_from_cloud_recommendations": [
+    {
+      "name": "smu-qa",
+      "reason": "Requires a private local corpus, qmd collection, and SMU_WIKI_ROOT."
+    },
+    {
+      "name": "terminal-title",
+      "reason": "Terminal-only behavior has no value in an autonomous cloud session."
+    },
+    {
+      "name": "git-pushing",
+      "reason": "Overlaps ship and yeet workflows and can produce conflicting delivery behavior."
+    },
+    {
+      "name": "test-driven-development",
+      "reason": "Conflicts with the current testing policy, which does not prioritize unit-test-first workflows."
+    },
+    {
+      "name": "gstack-openclaw-ceo-review",
+      "reason": "OpenClaw-specific adapter is irrelevant to standard Devin sessions."
+    },
+    {
+      "name": "gstack-openclaw-investigate",
+      "reason": "OpenClaw-specific adapter is irrelevant to standard Devin sessions."
+    },
+    {
+      "name": "gstack-openclaw-office-hours",
+      "reason": "OpenClaw-specific adapter is irrelevant to standard Devin sessions."
+    },
+    {
+      "name": "gstack-openclaw-retro",
+      "reason": "OpenClaw-specific adapter is irrelevant to standard Devin sessions."
+    }
+  ],
+  "notes": [
+    "Repository-specific skills such as add-adapter and ai-elements remain optional rather than baseline.",
+    "AWS, Supabase, Resend, n8n, LangChain, LangGraph, Screenpipe, and document-format skills remain optional.",
+    "Gstack skills remain optional because they depend on the gstack runtime and frequently overlap baseline workflows."
+  ]
+}

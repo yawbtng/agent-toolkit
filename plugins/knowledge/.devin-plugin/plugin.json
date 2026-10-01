@@ -1,0 +1,7 @@
+{
+  "name": "agent-knowledge",
+  "version": "0.1.0",
+  "description": "Research, documentation, memory, context reconstruction, and knowledge synthesis skills.",
+  "repository": "https://github.com/yawbtng/agent-toolkit",
+  "keywords": ["Productivity"]
+}

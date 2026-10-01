@@ -1,0 +1,1566 @@
+{
+  "imported": [
+    {
+      "name": "accessibility",
+      "category": "design",
+      "source": "~/.agents/skills/accessibility",
+      "destination": "plugins/design/skills/accessibility",
+      "sha256": "df14b3a23e79b4c213cf3bd0a14662fb084f226a7d5099b37582b3235c8c4b53"
+    },
+    {
+      "name": "adapt",
+      "category": "design",
+      "source": "~/.agents/skills/adapt",
+      "destination": "plugins/design/skills/adapt",
+      "sha256": "654dc3abfd3c741f0d694733f1d24cb24ab4728c9fbc620253fb2776329d180d"
+    },
+    {
+      "name": "add-adapter",
+      "category": "knowledge",
+      "source": "~/.agents/skills/add-adapter",
+      "destination": "plugins/knowledge/skills/add-adapter",
+      "sha256": "2503d3c026e27145b2627ab9c65e30b05f43999ebdde0456e80d04289f240172"
+    },
+    {
+      "name": "agent-email-inbox",
+      "category": "productivity",
+      "source": "~/.agents/skills/resend/agent-email-inbox",
+      "destination": "plugins/productivity/skills/agent-email-inbox",
+      "sha256": "5eff61122d71d812395ee9830493293fcfea8a1111780c61efe3c0c5931ea868"
+    },
+    {
+      "name": "agentation",
+      "category": "design",
+      "source": "~/.agents/skills/agentation",
+      "destination": "plugins/design/skills/agentation",
+      "sha256": "f16cf1d379caffa848e172b2169e4d66d93ca6ee68a73d3eae5eece55a0cd84a"
+    },
+    {
+      "name": "ai-elements",
+      "category": "frontend",
+      "source": "~/.agents/skills/ai-elements",
+      "destination": "plugins/frontend/skills/ai-elements",
+      "sha256": "7e36e211495cf1ecfa6791c1e91cc53e253375cc5ee939d98656cc5a44d41fda"
+    },
+    {
+      "name": "animate",
+      "category": "design",
+      "source": "~/.agents/skills/animate",
+      "destination": "plugins/design/skills/animate",
+      "sha256": "8f195581404211b3fdfecf66780f029c55ff910682e701705c2657189f82da0e"
+    },
+    {
+      "name": "animation-accessibility",
+      "category": "design",
+      "source": "~/.claude/skills/animation-accessibility",
+      "destination": "plugins/design/skills/animation-accessibility",
+      "sha256": "584f0f40783d91f7bd36702676d10633a2b9bf4d5a8f90b711101dc3b282157e"
+    },
+    {
+      "name": "animation-performance",
+      "category": "frontend",
+      "source": "~/.claude/skills/animation-performance",
+      "destination": "plugins/frontend/skills/animation-performance",
+      "sha256": "a52de3775834ab6e88210d29586cac7534c3511d34e709ec21cd800c1ec62e09"
+    },
+    {
+      "name": "animation-vocabulary",
+      "category": "design",
+      "source": "~/.claude/skills/animation-vocabulary",
+      "destination": "plugins/design/skills/animation-vocabulary",
+      "sha256": "e25536185c01d11052b2cf089ad7aaf94296f73d42a7fd0b380ad8facc874d29"
+    },
+    {
+      "name": "arrange",
+      "category": "design",
+      "source": "~/.agents/skills/arrange",
+      "destination": "plugins/design/skills/arrange",
+      "sha256": "1a91127926349ad7ddb67d95692391bd96fb5d0b7a245ab53dc64cc0b8e826fb"
+    },
+    {
+      "name": "article-extractor",
+      "category": "knowledge",
+      "source": "~/.agents/skills/article-extractor",
+      "destination": "plugins/knowledge/skills/article-extractor",
+      "sha256": "779218713781272578b659d1f7ca8d4ae52b5f8748b37dfe208c29df37bec591"
+    },
+    {
+      "name": "audit",
+      "category": "design",
+      "source": "~/.agents/skills/audit",
+      "destination": "plugins/design/skills/audit",
+      "sha256": "2091b4a5231750a3260a7790bdbc7dc4135b68ff590ce9b96a20a63beef74733"
+    },
+    {
+      "name": "autoplan",
+      "category": "core",
+      "source": "~/.agents/skills/autoplan",
+      "destination": "plugins/core/skills/autoplan",
+      "sha256": "35fa949b42afdfc9e3ecbae393bca2254ad8cf790aaff96d75d5f748a665d31a"
+    },
+    {
+      "name": "aws-agentic-ai",
+      "category": "frontend",
+      "source": "~/.agents/skills/aws-agentic-ai",
+      "destination": "plugins/frontend/skills/aws-agentic-ai",
+      "sha256": "65525657efa342a45765e41e781ce734f174fab6467f9795cbba270ff2177461"
+    },
+    {
+      "name": "aws-cdk-development",
+      "category": "frontend",
+      "source": "~/.claude/skills/aws-cdk",
+      "destination": "plugins/frontend/skills/aws-cdk-development",
+      "sha256": "a97646a3c9e27c299fb8d10a5243ad0e4975c86bfc1d49a8e3754f791690d05f"
+    },
+    {
+      "name": "aws-cost-operations",
+      "category": "core",
+      "source": "~/.claude/skills/aws-cost-ops",
+      "destination": "plugins/core/skills/aws-cost-operations",
+      "sha256": "6bead08ce460a16e40dc8b312d29d63700e0879be8ea9178ab91f2b57a492c88"
+    },
+    {
+      "name": "aws-serverless-eda",
+      "category": "frontend",
+      "source": "~/.claude/skills/serverless-eda",
+      "destination": "plugins/frontend/skills/aws-serverless-eda",
+      "sha256": "5dc41b844b742ba310561eed37931929c0c89f6c1e8bedc1be91c169490f1d73"
+    },
+    {
+      "name": "babysit-prs",
+      "category": "core",
+      "source": "~/.agents/skills/babysit-prs",
+      "destination": "plugins/core/skills/babysit-prs",
+      "sha256": "6ef9b6215ebbf47731d853e10d83aaabdb7752c135e0b362f017161567d20405"
+    },
+    {
+      "name": "baton",
+      "category": "knowledge",
+      "source": "~/.agents/skills/baton",
+      "destination": "plugins/knowledge/skills/baton",
+      "sha256": "9e6b97330e28550307897947aebd7cfe608c36f80adf22f82d419163a932be20"
+    },
+    {
+      "name": "benchmark",
+      "category": "core",
+      "source": "~/.agents/skills/benchmark",
+      "destination": "plugins/core/skills/benchmark",
+      "sha256": "22621ec7c4694858ebc11a602d6b58d0407587929fa74d26b3e18d5552455e19"
+    },
+    {
+      "name": "benchmark-models",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-benchmark-models",
+      "destination": "plugins/core/skills/benchmark-models",
+      "sha256": "02d7841cdd0cbd2e499ed5623f8194bf3afc9bc646d7cb64c320098bd4c70411"
+    },
+    {
+      "name": "best-practices",
+      "category": "design",
+      "source": "~/.agents/skills/best-practices",
+      "destination": "plugins/design/skills/best-practices",
+      "sha256": "f32182e2cd742818f6b3b86f40be319eeae9cb10e392e3e4a8e8f586bad4eccf"
+    },
+    {
+      "name": "bolder",
+      "category": "design",
+      "source": "~/.agents/skills/bolder",
+      "destination": "plugins/design/skills/bolder",
+      "sha256": "bd004f016d94380a11bfff10d889c6142cc5ccf708be66270c40263f978a0239"
+    },
+    {
+      "name": "brainstorming",
+      "category": "design",
+      "source": "~/.claude/skills/brainstorming",
+      "destination": "plugins/design/skills/brainstorming",
+      "sha256": "206c63e80d38c57e6afc657296332b1d0ff75572435d75c079e7407b26762ecd"
+    },
+    {
+      "name": "browse",
+      "category": "core",
+      "source": "~/.agents/skills/browse",
+      "destination": "plugins/core/skills/browse",
+      "sha256": "173c1000f0a123ff973691b996e5c420b4534444f0a628bc7adfd415b85c35b4"
+    },
+    {
+      "name": "canary",
+      "category": "core",
+      "source": "~/.agents/skills/canary",
+      "destination": "plugins/core/skills/canary",
+      "sha256": "1230214fc6fc7862b55a87f65aaad100bd574ddf8efeef57c70db712757713b0"
+    },
+    {
+      "name": "canvas-design",
+      "category": "design",
+      "source": "~/.agents/skills/canvas-design",
+      "destination": "plugins/design/skills/canvas-design",
+      "sha256": "a1f288079624402f30682753c1d43920b6664785698d21d3e7aa197450a6448b"
+    },
+    {
+      "name": "careful",
+      "category": "core",
+      "source": "~/.agents/skills/careful",
+      "destination": "plugins/core/skills/careful",
+      "sha256": "a2640a04b1ad7bed3f19fd0b131dbf6e2fd3a8c8556957d609d13ec39f779f7f"
+    },
+    {
+      "name": "changelog-generator",
+      "category": "core",
+      "source": "~/.agents/skills/changelog-generator",
+      "destination": "plugins/core/skills/changelog-generator",
+      "sha256": "0fdde1fc7ed062a82fd7ba98057f5d471c5d1905bfe2ddc4eeb213450cb00c18"
+    },
+    {
+      "name": "chat-sdk",
+      "category": "productivity",
+      "source": "~/.agents/skills/chat-sdk",
+      "destination": "plugins/productivity/skills/chat-sdk",
+      "sha256": "6e896ea626060baf607f2f87191c3967a20deae16155b9571a345f7fed91e50f"
+    },
+    {
+      "name": "checkpoint",
+      "category": "core",
+      "source": "~/.agents/skills/checkpoint",
+      "destination": "plugins/core/skills/checkpoint",
+      "sha256": "f76e087d30a26dac1875d223c91938932ebc02220f6155f64f14c6e34bf152e0"
+    },
+    {
+      "name": "clarify",
+      "category": "design",
+      "source": "~/.agents/skills/clarify",
+      "destination": "plugins/design/skills/clarify",
+      "sha256": "3a1f405f313352edaa81e6ed2888c119d27049a01e63d92becb0dc8738df9651"
+    },
+    {
+      "name": "claude",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-claude",
+      "destination": "plugins/core/skills/claude",
+      "sha256": "9a71da53240e07d5b07c45942332f78d9ab8e654913a3ab65b29680c104bac02"
+    },
+    {
+      "name": "code-deslop",
+      "category": "design",
+      "source": "~/.agents/skills/code-deslop",
+      "destination": "plugins/design/skills/code-deslop",
+      "sha256": "391b024cbb96f31e7eeb43edf368c11f2ded16f0a2dfd9dc16ab0607caed999a"
+    },
+    {
+      "name": "codex",
+      "category": "core",
+      "source": "~/.agents/skills/codex",
+      "destination": "plugins/core/skills/codex",
+      "sha256": "e073d67cb00a26cf7fe15ef898d38d5df88c7d1e44a07ce8f42759b5d3a9c531"
+    },
+    {
+      "name": "colorize",
+      "category": "design",
+      "source": "~/.agents/skills/colorize",
+      "destination": "plugins/design/skills/colorize",
+      "sha256": "117a88e149c68e337a41345a42462f1df3668d6bd847e8a83b23468e4d906553"
+    },
+    {
+      "name": "context-restore",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-context-restore",
+      "destination": "plugins/core/skills/context-restore",
+      "sha256": "084abe1b88df043c206fcef336c0a76764eee163a165f5621cf270673d42dbd0"
+    },
+    {
+      "name": "context-save",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-context-save",
+      "destination": "plugins/core/skills/context-save",
+      "sha256": "f9d103f233c8c343fed2a8e30a9bbcac3a7419b18d7257bdd6ef2c2a5c5833aa"
+    },
+    {
+      "name": "copywriting",
+      "category": "productivity",
+      "source": "~/.agents/skills/copywriting",
+      "destination": "plugins/productivity/skills/copywriting",
+      "sha256": "21202711c6b52f006cfebcefabd6781fb65dfd78b385c48bdcc9b19bca4e4e55"
+    },
+    {
+      "name": "core-web-vitals",
+      "category": "frontend",
+      "source": "~/.agents/skills/core-web-vitals",
+      "destination": "plugins/frontend/skills/core-web-vitals",
+      "sha256": "b03396c9bd7a41950bbaf5964bc8f1cf60a3c81830a6171614d6413c8bff308c"
+    },
+    {
+      "name": "cost-estimate",
+      "category": "core",
+      "source": "~/.claude/skills/cost-estimate",
+      "destination": "plugins/core/skills/cost-estimate",
+      "sha256": "dd03252fc0e00f9e3bbe343838bbd6167d59bdf841c27fbee3fe54fe4ba4ac50"
+    },
+    {
+      "name": "critique",
+      "category": "design",
+      "source": "~/.agents/skills/critique",
+      "destination": "plugins/design/skills/critique",
+      "sha256": "c1d7e64db672ae803312d41ed775a9f71891f613d8c0823cca84c8b2edd720ff"
+    },
+    {
+      "name": "cso",
+      "category": "core",
+      "source": "~/.agents/skills/cso",
+      "destination": "plugins/core/skills/cso",
+      "sha256": "81410fe378ff7ff4895e09f82cfd777b9cfac04e0fee0b84125be60265ba280f"
+    },
+    {
+      "name": "css-animations",
+      "category": "design",
+      "source": "~/.claude/skills/css-animations",
+      "destination": "plugins/design/skills/css-animations",
+      "sha256": "4b9e550e8ee83f86dab1c21e21f37fb97d9cfdf3d985169be38a8764f6e8b184"
+    },
+    {
+      "name": "csv-data-summarizer",
+      "category": "core",
+      "source": "~/.agents/skills/csv-data-summarizer",
+      "destination": "plugins/core/skills/csv-data-summarizer",
+      "sha256": "1599338ac2db52bad14bb5e67152b3e27279e301a267d3c1a0f8239fab499169"
+    },
+    {
+      "name": "d3-viz",
+      "category": "frontend",
+      "source": "~/.claude/skills/d3js",
+      "destination": "plugins/frontend/skills/d3-viz",
+      "sha256": "7237bfe82ce774225fa06a12c35c9771f9c0b70d4c68e1b083932a29ae37b51a"
+    },
+    {
+      "name": "deep-agents-core",
+      "category": "core",
+      "source": "~/.agents/skills/deep-agents-core",
+      "destination": "plugins/core/skills/deep-agents-core",
+      "sha256": "07b82a267485c9955d4042119a5d465e54502580d0e1a59f991b05327e08cb07"
+    },
+    {
+      "name": "deep-agents-memory",
+      "category": "knowledge",
+      "source": "~/.agents/skills/deep-agents-memory",
+      "destination": "plugins/knowledge/skills/deep-agents-memory",
+      "sha256": "3dea5098da27a0eceef6c1aa50cfc6e23c2716185a0660c1283d8ebb6efb4591"
+    },
+    {
+      "name": "deep-agents-orchestration",
+      "category": "core",
+      "source": "~/.agents/skills/deep-agents-orchestration",
+      "destination": "plugins/core/skills/deep-agents-orchestration",
+      "sha256": "2a68af73c8c0885a5e69c633c27dbed2a8507a076b6a4568a280c65e4c7bba10"
+    },
+    {
+      "name": "delight",
+      "category": "design",
+      "source": "~/.agents/skills/delight",
+      "destination": "plugins/design/skills/delight",
+      "sha256": "5d46c298e5d9b8e4487917159faac926e7633c81612cb3bb852e9afc487926f6"
+    },
+    {
+      "name": "design-consultation",
+      "category": "core",
+      "source": "~/.agents/skills/design-consultation",
+      "destination": "plugins/core/skills/design-consultation",
+      "sha256": "cdad6e8c0ead8f749fe17a081a6743c8bed45b2109d078dcb9da8461f2dbe05f"
+    },
+    {
+      "name": "design-html",
+      "category": "core",
+      "source": "~/.agents/skills/design-html",
+      "destination": "plugins/core/skills/design-html",
+      "sha256": "3f889cf3d97cb56bba200b02ae0df33896c3e555f01f16d3982741e0595e8f86"
+    },
+    {
+      "name": "design-review",
+      "category": "core",
+      "source": "~/.agents/skills/design-review",
+      "destination": "plugins/core/skills/design-review",
+      "sha256": "5d37d9eb2b90a93e896771b32b4e38a399d06d061a6bb885cd06e83615df5c22"
+    },
+    {
+      "name": "design-shotgun",
+      "category": "core",
+      "source": "~/.agents/skills/design-shotgun",
+      "destination": "plugins/core/skills/design-shotgun",
+      "sha256": "e6e26cc31d52b88dd060794df13ed07d09c907dfe685b8df7780c2df40f3cb86"
+    },
+    {
+      "name": "design-taste-frontend",
+      "category": "design",
+      "source": "~/.agents/skills/design-taste-frontend",
+      "destination": "plugins/design/skills/design-taste-frontend",
+      "sha256": "aa194351b246b8b4799099d4ed7b033d29eab6e6e3d58d8d2172978be7b3ec89"
+    },
+    {
+      "name": "deslop",
+      "category": "core",
+      "source": "~/.agents/skills/deslop",
+      "destination": "plugins/core/skills/deslop",
+      "sha256": "0f0adadc3840c7805e5a22ec85e482679e4af31cb74a6df3b9134fbf80dfdd57"
+    },
+    {
+      "name": "devex-review",
+      "category": "core",
+      "source": "~/.agents/skills/devex-review",
+      "destination": "plugins/core/skills/devex-review",
+      "sha256": "585e9922a06d9c5078dff4534c0279c5806e7868fe986e558b07a17806ceb6ab"
+    },
+    {
+      "name": "diagram",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-diagram",
+      "destination": "plugins/core/skills/diagram",
+      "sha256": "163edc5c47ce97a0ffe2f99b6469f91184a86ebcf5bd7dc7fd857695985bd228"
+    },
+    {
+      "name": "distill",
+      "category": "design",
+      "source": "~/.agents/skills/distill",
+      "destination": "plugins/design/skills/distill",
+      "sha256": "946d4b3ffc194416fbf466cff1c4e2dd0bbc0835d6b3163a940e42a04a1d2d17"
+    },
+    {
+      "name": "document-generate",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-document-generate",
+      "destination": "plugins/core/skills/document-generate",
+      "sha256": "b90bc493e9eab115d6a43c5fd61ee9d572447399771faedae618510dc5f078aa"
+    },
+    {
+      "name": "document-release",
+      "category": "core",
+      "source": "~/.agents/skills/document-release",
+      "destination": "plugins/core/skills/document-release",
+      "sha256": "039f1b3c5fa008de942cb18e4f5b3f8d08d593240e3cc96848baf9fece2e374c"
+    },
+    {
+      "name": "docx",
+      "category": "knowledge",
+      "source": "~/.agents/skills/docx",
+      "destination": "plugins/knowledge/skills/docx",
+      "sha256": "de81d151999ad303684cdb584522b702a3bd732ed6e31cff683449df53bd1c86"
+    },
+    {
+      "name": "domain-name-brainstormer",
+      "category": "core",
+      "source": "~/.agents/skills/domain-name-brainstormer",
+      "destination": "plugins/core/skills/domain-name-brainstormer",
+      "sha256": "495707739b354f81d1e28c6188dd55b97fdf5c64ae3e3c182ba6f092b2ab782b"
+    },
+    {
+      "name": "elevenlabs-music",
+      "category": "core",
+      "source": "~/.claude/skills/elevenlabs-audio",
+      "destination": "plugins/core/skills/elevenlabs-music",
+      "sha256": "b6e0b4dea81c97c5d495ecb3aefb99860d3e7e9388865eabbe8cb7a6305c8dcb"
+    },
+    {
+      "name": "email-best-practices",
+      "category": "productivity",
+      "source": "~/.agents/skills/email-best-practices",
+      "destination": "plugins/productivity/skills/email-best-practices",
+      "sha256": "c4e5f78f98ae1e5842ad7c7515f5519a27515de5d64547744740a3376c41f3fa"
+    },
+    {
+      "name": "emil-design-eng",
+      "category": "design",
+      "source": "~/.agents/skills/emil-design-eng",
+      "destination": "plugins/design/skills/emil-design-eng",
+      "sha256": "433b5a239cda18e0576e4e558532e7e53512e21fafe5b85db4894c28ec399b72"
+    },
+    {
+      "name": "eng",
+      "category": "core",
+      "source": "~/.agents/skills/eng",
+      "destination": "plugins/core/skills/eng",
+      "sha256": "1c60fb1fbbda714f6e3e1682e1bcf1059e2488ca2d488a8ca62c7d1a5c22c856"
+    },
+    {
+      "name": "extract",
+      "category": "design",
+      "source": "~/.agents/skills/extract",
+      "destination": "plugins/design/skills/extract",
+      "sha256": "55308221b325e4c1956c1f380abfacb56873c50aa0a869907baadd660ad80152"
+    },
+    {
+      "name": "figma",
+      "category": "design",
+      "source": "~/.claude/skills/figma",
+      "destination": "plugins/design/skills/figma",
+      "sha256": "5b11f7c8d0ce4c047b401323e7b8fe6559bd3162a3397bf5248634a5444609d5"
+    },
+    {
+      "name": "figma-implement-design",
+      "category": "design",
+      "source": "~/.claude/skills/figma-implement-design",
+      "destination": "plugins/design/skills/figma-implement-design",
+      "sha256": "adea0fa5ed0b77a75112f64737f4aa562fcc231d242370f8cbdb25d050be19ad"
+    },
+    {
+      "name": "file-organizer",
+      "category": "knowledge",
+      "source": "~/.agents/skills/file-organizer",
+      "destination": "plugins/knowledge/skills/file-organizer",
+      "sha256": "a8b91952bab7f73511db68149c4a54672b40699903a8e35ed5044c3e3039ded5"
+    },
+    {
+      "name": "find-animation-opportunities",
+      "category": "design",
+      "source": "~/.claude/skills/find-animation-opportunities",
+      "destination": "plugins/design/skills/find-animation-opportunities",
+      "sha256": "6591a928b0abcd85cecf26991b035ef7b4d9db66b0dd0e5ab7fe57f00e5db36a"
+    },
+    {
+      "name": "find-skills",
+      "category": "core",
+      "source": "~/.agents/skills/find-skills",
+      "destination": "plugins/core/skills/find-skills",
+      "sha256": "54b44dc9539df865fbb060f62fb062e8232e765852a0cf14c38301fe0c1eb264"
+    },
+    {
+      "name": "firecrawl",
+      "category": "core",
+      "source": "~/.agents/skills/firecrawl",
+      "destination": "plugins/core/skills/firecrawl",
+      "sha256": "5deaae9547eddce1f2c1fdd4376846b14ff4429a20b081be6f0e995643352c74"
+    },
+    {
+      "name": "for-yourname-doc",
+      "category": "knowledge",
+      "source": "~/.agents/skills/for-yourname-doc",
+      "destination": "plugins/knowledge/skills/for-yourname-doc",
+      "sha256": "67f73f77ed1a0a0d83e6c00b88c3833d5d6bbd8d16e073b0b45c32b8375d8f3a"
+    },
+    {
+      "name": "framework-selection",
+      "category": "core",
+      "source": "~/.agents/skills/framework-selection",
+      "destination": "plugins/core/skills/framework-selection",
+      "sha256": "3dd7830abba0c0194942d4bcdc083d2d2e401d0127a919737c6cc43ebc652520"
+    },
+    {
+      "name": "freeze",
+      "category": "core",
+      "source": "~/.agents/skills/freeze",
+      "destination": "plugins/core/skills/freeze",
+      "sha256": "ff34e2fac6a2d649ab18668a3101f42fb43334f4d950dcdef921078b2720347c"
+    },
+    {
+      "name": "frontend-design",
+      "category": "frontend",
+      "source": "~/.agents/skills/frontend-design",
+      "destination": "plugins/frontend/skills/frontend-design",
+      "sha256": "1bb3263d490c2585bf64a4e399ab28650a5034d7705abdbbe82a5a9dce1e6873"
+    },
+    {
+      "name": "garry-tan-plan-review",
+      "category": "frontend",
+      "source": "~/.claude/skills/garry-tan-plan-review",
+      "destination": "plugins/frontend/skills/garry-tan-plan-review",
+      "sha256": "8346b8a2f507f260c933ddcca1d69f4f15502986a4314ab36e486e6b509653bc"
+    },
+    {
+      "name": "gh-address-comments",
+      "category": "core",
+      "source": "~/.claude/skills/gh-address-comments",
+      "destination": "plugins/core/skills/gh-address-comments",
+      "sha256": "77389eefd3fb6584210668ca8e43f4b8de87e7722ddd953474bc9e24cdfaaedd"
+    },
+    {
+      "name": "git-pushing",
+      "category": "productivity",
+      "source": "~/.agents/skills/git-pushing",
+      "destination": "plugins/productivity/skills/git-pushing",
+      "sha256": "d54394e9e9aff8e2b7a19d14b41c144131edd29832d204cb60896e2c900e2d3d"
+    },
+    {
+      "name": "gstack",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack",
+      "destination": "plugins/core/skills/gstack",
+      "sha256": "be824aa5dd80bd6624bb1f97c897dcb3dd5c095a3985d19bff0c388bdd541f45"
+    },
+    {
+      "name": "gstack-openclaw-ceo-review",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/openclaw/skills/gstack-openclaw-ceo-review",
+      "destination": "plugins/core/skills/gstack-openclaw-ceo-review",
+      "sha256": "5c4442aec4ffd0673dce28bf966a2825507cdcfaebefccc027572fe0b8b7d6b6"
+    },
+    {
+      "name": "gstack-openclaw-investigate",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/openclaw/skills/gstack-openclaw-investigate",
+      "destination": "plugins/core/skills/gstack-openclaw-investigate",
+      "sha256": "ab4ef9f9482a1463cdd550333fc76be38ba5e786f901ce2888bee8452d94be20"
+    },
+    {
+      "name": "gstack-openclaw-office-hours",
+      "category": "design",
+      "source": "~/.agents/skills/gstack/openclaw/skills/gstack-openclaw-office-hours",
+      "destination": "plugins/design/skills/gstack-openclaw-office-hours",
+      "sha256": "a98c457ce55cc5adca6776710d47c9ff1f0a67771d6f03e5bc56e0fcfb4ad138"
+    },
+    {
+      "name": "gstack-openclaw-retro",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/openclaw/skills/gstack-openclaw-retro",
+      "destination": "plugins/core/skills/gstack-openclaw-retro",
+      "sha256": "be57f1de434235b066c9e271de4993e5bb9b519987c1bb6b45386a4f8a5c637d"
+    },
+    {
+      "name": "gstack-upgrade",
+      "category": "core",
+      "source": "~/.agents/skills/gstack-upgrade",
+      "destination": "plugins/core/skills/gstack-upgrade",
+      "sha256": "0d76ba2dad4da8f61347a68ca0cf0a142a1879f8299c09c8ebcaf6a9ed1fdc2b"
+    },
+    {
+      "name": "guard",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-guard",
+      "destination": "plugins/core/skills/guard",
+      "sha256": "8241611e5314aa71e8937bd3f1535cc7ed51e71171d93e9f6be4cd46522f11a0"
+    },
+    {
+      "name": "hackernews-frontpage",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/browser-skills/hackernews-frontpage",
+      "destination": "plugins/core/skills/hackernews-frontpage",
+      "sha256": "1a4e91d00ffdbdd38d2dc2986cf764b6d7d4d9348fdce19f2c60e92fa4a564da"
+    },
+    {
+      "name": "hallmark",
+      "category": "design",
+      "source": "~/.agents/skills/hallmark",
+      "destination": "plugins/design/skills/hallmark",
+      "sha256": "59469635bbbd21acddbc664d95e8d97147f454b2d8f4a0a89c7d2c5afbe67577"
+    },
+    {
+      "name": "harden",
+      "category": "core",
+      "source": "~/.agents/skills/harden",
+      "destination": "plugins/core/skills/harden",
+      "sha256": "a45487856647c53d1d0c14c011241c18c124fe6e66880cbdb229f22f4b05f42e"
+    },
+    {
+      "name": "health",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-health",
+      "destination": "plugins/core/skills/health",
+      "sha256": "9d1b899823626f8752daa304c4ed2475fc1d2a06bea096e9fa0917bae2ba068f"
+    },
+    {
+      "name": "impeccable-design",
+      "category": "design",
+      "source": "~/.agents/skills/impeccable-design",
+      "destination": "plugins/design/skills/impeccable-design",
+      "sha256": "826ec77779df3f5b4643ea5eccce3fcbeb3948bfa028ea4d403e1df31c689040"
+    },
+    {
+      "name": "improve-animations",
+      "category": "design",
+      "source": "~/.claude/skills/improve-animations",
+      "destination": "plugins/design/skills/improve-animations",
+      "sha256": "92373cf3a828576a482fc1fb7f9f68a0623bba65c2927ec5b6b8194100bc86d2"
+    },
+    {
+      "name": "internal-comms",
+      "category": "core",
+      "source": "~/.agents/skills/internal-comms",
+      "destination": "plugins/core/skills/internal-comms",
+      "sha256": "067b7587a344a928fc6534ef66b1bcd591fc7c26d207ea7ca3334aeb678d6475"
+    },
+    {
+      "name": "investigate",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-investigate",
+      "destination": "plugins/core/skills/investigate",
+      "sha256": "9aa59cd96a18e959af78cc1b321cce79b14b9ac16789935677d21e8b73615ae5"
+    },
+    {
+      "name": "invoice-organizer",
+      "category": "core",
+      "source": "~/.agents/skills/invoice-organizer",
+      "destination": "plugins/core/skills/invoice-organizer",
+      "sha256": "62198235231376cb09bc28bd601fb120d3ef24b3ddb55c4b71965f9044352fda"
+    },
+    {
+      "name": "ios-clean",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-ios-clean",
+      "destination": "plugins/core/skills/ios-clean",
+      "sha256": "90138ceb04612b56a1305e50550d86146ecab99dcf945cc68c99e22eaa8466ee"
+    },
+    {
+      "name": "ios-design-review",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-ios-design-review",
+      "destination": "plugins/core/skills/ios-design-review",
+      "sha256": "db6fa764592be7cab20baf8f024e9db4635c513442c7049148f3f44cbd16183c"
+    },
+    {
+      "name": "ios-fix",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-ios-fix",
+      "destination": "plugins/core/skills/ios-fix",
+      "sha256": "0585a4883f27a725a584a8a1b9ac945d6fddb1e62c2f295835d4a5433030aa39"
+    },
+    {
+      "name": "ios-qa",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-ios-qa",
+      "destination": "plugins/core/skills/ios-qa",
+      "sha256": "75da846918d40ac330805e99464b9810ab1abc6fd9a81b3528e6c91489889564"
+    },
+    {
+      "name": "ios-sync",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-ios-sync",
+      "destination": "plugins/core/skills/ios-sync",
+      "sha256": "ef16828bd1c8d6c3432b0f77e265262d1642ba582d3a6ae55ff9c5e365a8c60e"
+    },
+    {
+      "name": "kaizen",
+      "category": "productivity",
+      "source": "~/.agents/skills/kaizen",
+      "destination": "plugins/productivity/skills/kaizen",
+      "sha256": "1a300eb3c93aa3f8307e034cc5f45731076ae478f78c049e23f06ad2a0c98626"
+    },
+    {
+      "name": "land-and-deploy",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-land-and-deploy",
+      "destination": "plugins/core/skills/land-and-deploy",
+      "sha256": "2263d157f4bbfb37b4d91b89ebb299f68ad647466cd9ef3d07a478e6a2550704"
+    },
+    {
+      "name": "landing-report",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-landing-report",
+      "destination": "plugins/core/skills/landing-report",
+      "sha256": "7ab4e404a8233a611a89f93c038675077a6e0c67bc91a71e203161fad6bef34e"
+    },
+    {
+      "name": "langchain-dependencies",
+      "category": "frontend",
+      "source": "~/.agents/skills/langchain-dependencies",
+      "destination": "plugins/frontend/skills/langchain-dependencies",
+      "sha256": "8bc5e8f3fcaec56925602145d1cdc67019cdd8349b268f68a528b408a6b1f43e"
+    },
+    {
+      "name": "langchain-fundamentals",
+      "category": "core",
+      "source": "~/.agents/skills/langchain-fundamentals",
+      "destination": "plugins/core/skills/langchain-fundamentals",
+      "sha256": "d4dc29350e0deb5f322014aa7ba60acffc555c6071244c2fdf6f51ac4ae0b292"
+    },
+    {
+      "name": "langchain-middleware",
+      "category": "productivity",
+      "source": "~/.agents/skills/langchain-middleware",
+      "destination": "plugins/productivity/skills/langchain-middleware",
+      "sha256": "fd477cc8031c7220d1672bf229dc98ef338ad72c74de4279ccfbe78acdb20f75"
+    },
+    {
+      "name": "langchain-rag",
+      "category": "knowledge",
+      "source": "~/.agents/skills/langchain-rag",
+      "destination": "plugins/knowledge/skills/langchain-rag",
+      "sha256": "e9c82cdefb087b182848fdff80d09feba7c64fa5e345d66bdad03d31a927a2af"
+    },
+    {
+      "name": "langgraph-fundamentals",
+      "category": "core",
+      "source": "~/.agents/skills/langgraph-fundamentals",
+      "destination": "plugins/core/skills/langgraph-fundamentals",
+      "sha256": "3c6eeb5facd72fc2f94b856fb10c8ba69ea5e5271d834c3128a1c4ab4e3a83ef"
+    },
+    {
+      "name": "langgraph-human-in-the-loop",
+      "category": "productivity",
+      "source": "~/.agents/skills/langgraph-human-in-the-loop",
+      "destination": "plugins/productivity/skills/langgraph-human-in-the-loop",
+      "sha256": "3e43a99257a835d345c2f547700a1c4c4055d0488101b0a9d6b4f81ea718b1bc"
+    },
+    {
+      "name": "langgraph-persistence",
+      "category": "core",
+      "source": "~/.agents/skills/langgraph-persistence",
+      "destination": "plugins/core/skills/langgraph-persistence",
+      "sha256": "a3c3fe4339f2822b05cf76a17b4e9c32230dba20f71be2cfcca575ee630d2d0b"
+    },
+    {
+      "name": "last30days",
+      "category": "frontend",
+      "source": "~/.agents/skills/last30days",
+      "destination": "plugins/frontend/skills/last30days",
+      "sha256": "d84402f2ab2297107fe32f43c1943437f4f1314b29b5889fe3640fe6eaa6d66d"
+    },
+    {
+      "name": "lead-research-assistant",
+      "category": "core",
+      "source": "~/.agents/skills/lead-research-assistant",
+      "destination": "plugins/core/skills/lead-research-assistant",
+      "sha256": "5b6a21b21d4a4bfd3ae0a07746261e0675212c12781e4846a8bb1b1f5386c73f"
+    },
+    {
+      "name": "learn",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-learn",
+      "destination": "plugins/core/skills/learn",
+      "sha256": "ad1b27a01057488bf0a7643ffb62851e49a9dedc216dbf34001f1a7efd3e016f"
+    },
+    {
+      "name": "llm-context-builder",
+      "category": "knowledge",
+      "source": "~/.agents/skills/llm-context-builder",
+      "destination": "plugins/knowledge/skills/llm-context-builder",
+      "sha256": "bc930d1c7a24329ecb490a796a194c274b4d651961fa4dfb9ec6a2e262d85390"
+    },
+    {
+      "name": "make-pdf",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-make-pdf",
+      "destination": "plugins/core/skills/make-pdf",
+      "sha256": "689f1ab564bbb39a61df8f222b8b1ce39449ccb15e1c5bf455aba2ab48e02d66"
+    },
+    {
+      "name": "markdown-to-epub-converter",
+      "category": "knowledge",
+      "source": "~/.claude/skills/epub",
+      "destination": "plugins/knowledge/skills/markdown-to-epub-converter",
+      "sha256": "fa7ceaf36ab0c22390830f849ea2b5cb3100cd2d87a9b2c17e160c9e42bb5592"
+    },
+    {
+      "name": "marketing-ideas",
+      "category": "core",
+      "source": "~/.agents/skills/marketing-ideas",
+      "destination": "plugins/core/skills/marketing-ideas",
+      "sha256": "76b56b5a15a6a36a0987c53e5e8e39d637d2450c33218a78a259e08a36ab59d7"
+    },
+    {
+      "name": "motion-brief",
+      "category": "design",
+      "source": "~/.claude/skills/motion-brief",
+      "destination": "plugins/design/skills/motion-brief",
+      "sha256": "a44ab9201a7f26d6df9476625d3636c07fe6c65fa14184e93f89aca5ccd039b0"
+    },
+    {
+      "name": "motion-react",
+      "category": "design",
+      "source": "~/.claude/skills/motion-react",
+      "destination": "plugins/design/skills/motion-react",
+      "sha256": "fc6653fb0e4c02a76f0c55b9fe3cc17da589278fad724aa050bd37760ad7d6af"
+    },
+    {
+      "name": "n8n-skills",
+      "category": "productivity",
+      "source": "~/.agents/skills/n8n-skills",
+      "destination": "plugins/productivity/skills/n8n-skills",
+      "sha256": "58771ca73d965a76e2e10ecabc591fea7f305e6c11424e61c66a52527b8461ca"
+    },
+    {
+      "name": "next-best-practices",
+      "category": "frontend",
+      "source": "~/.agents/skills/next-best-practices",
+      "destination": "plugins/frontend/skills/next-best-practices",
+      "sha256": "c78f952d4e98bf3694856dbf70c03a6037d4e258ff3701f2642bfdf108549a25"
+    },
+    {
+      "name": "normalize",
+      "category": "design",
+      "source": "~/.agents/skills/normalize",
+      "destination": "plugins/design/skills/normalize",
+      "sha256": "3c85740beedf6557c797bc0814a75fd784f90811ef0a7f06e463a47484f81f28"
+    },
+    {
+      "name": "notion-meeting-intelligence",
+      "category": "knowledge",
+      "source": "~/.claude/skills/notion-meeting-intelligence",
+      "destination": "plugins/knowledge/skills/notion-meeting-intelligence",
+      "sha256": "bad61faccbbe0f2cab53bcfbc4cb22f847ba8593ef14c2e37fea5b9b03346332"
+    },
+    {
+      "name": "notion-spec-to-implementation",
+      "category": "knowledge",
+      "source": "~/.claude/skills/notion-spec-to-implementation",
+      "destination": "plugins/knowledge/skills/notion-spec-to-implementation",
+      "sha256": "6e22c4c6df441e849fa6b4b825371b579c9bb4896f97bedca5f8536020427a81"
+    },
+    {
+      "name": "office-hours",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-office-hours",
+      "destination": "plugins/core/skills/office-hours",
+      "sha256": "b32061f6a317a527ac46919d398aff8add05a70b58c5eeab10ba934cc109c80e"
+    },
+    {
+      "name": "onboard",
+      "category": "design",
+      "source": "~/.agents/skills/onboard",
+      "destination": "plugins/design/skills/onboard",
+      "sha256": "32da37662d421384b597866b4e2c514b7dd3c69704b5e805d9317198083a3159"
+    },
+    {
+      "name": "open-gstack-browser",
+      "category": "core",
+      "source": "~/.agents/skills/connect-chrome",
+      "destination": "plugins/core/skills/open-gstack-browser",
+      "sha256": "1e3de4f68b63f9913374ed491adbe1c80e6c471a00d2199f691896ce800d0166"
+    },
+    {
+      "name": "optimize",
+      "category": "frontend",
+      "source": "~/.agents/skills/optimize",
+      "destination": "plugins/frontend/skills/optimize",
+      "sha256": "f9400a9dde1ff028de7b3dd81cdfa6421f3d8aa3d19d679d5f3f49279f96c7bc"
+    },
+    {
+      "name": "overdrive",
+      "category": "core",
+      "source": "~/.agents/skills/overdrive",
+      "destination": "plugins/core/skills/overdrive",
+      "sha256": "29a67c768a28bdf3be12592e5f30a376bc162d347a68d4f7fc48f9848b34fe3b"
+    },
+    {
+      "name": "pair-agent",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-pair-agent",
+      "destination": "plugins/core/skills/pair-agent",
+      "sha256": "45622b7fc526c8e886560c4d4c58af8431eb4e56fb06d0e1342d25aec61e35de"
+    },
+    {
+      "name": "pdf",
+      "category": "knowledge",
+      "source": "~/.agents/skills/pdf",
+      "destination": "plugins/knowledge/skills/pdf",
+      "sha256": "ff4594ca31e995286e45c64364a650b16073cf1555a0b49951662d5cf64c93fd"
+    },
+    {
+      "name": "performance",
+      "category": "frontend",
+      "source": "~/.agents/skills/performance",
+      "destination": "plugins/frontend/skills/performance",
+      "sha256": "4a480aded5001c237d9503ec3c6c6c6d5cc38bb7935912bb1c2bb9c3ee637350"
+    },
+    {
+      "name": "pick-ui-library",
+      "category": "design",
+      "source": "~/.claude/skills/pick-ui-library",
+      "destination": "plugins/design/skills/pick-ui-library",
+      "sha256": "97f1888dd5ccd67cd95597a3d118754e5b3d5f34f6c458639cdb61a8a0d9b594"
+    },
+    {
+      "name": "plan-ceo-review",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-plan-ceo-review",
+      "destination": "plugins/core/skills/plan-ceo-review",
+      "sha256": "5aa02d18351e84ceb4d47133a9c812bf5b578e9cc24332832e4a4e06640d4df6"
+    },
+    {
+      "name": "plan-design-review",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-plan-design-review",
+      "destination": "plugins/core/skills/plan-design-review",
+      "sha256": "b8cff60a6a1fadd0c529c706bdd82e5e1acc6a82d4119b3919259ce3ae9cc072"
+    },
+    {
+      "name": "plan-devex-review",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-plan-devex-review",
+      "destination": "plugins/core/skills/plan-devex-review",
+      "sha256": "17dbf41a80bb26316cd51ae68b032019ca5dfdc5ef54a616861a6c717a05a7a6"
+    },
+    {
+      "name": "plan-eng-review",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-plan-eng-review",
+      "destination": "plugins/core/skills/plan-eng-review",
+      "sha256": "e97bdabcf878c71fce53a176ebc8d90b6aface13ec4a2fdea8ef66819969b440"
+    },
+    {
+      "name": "plan-tune",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-plan-tune",
+      "destination": "plugins/core/skills/plan-tune",
+      "sha256": "2e34b76b7adc3fad54ef2e380a565eae934749f8f8744004504680ebf56f6609"
+    },
+    {
+      "name": "playwright-skill",
+      "category": "design",
+      "source": "~/.claude/skills/playwright",
+      "destination": "plugins/design/skills/playwright-skill",
+      "sha256": "c06eaa575775ba05775b5789abbdfe03031428ce86215ebd88f2a1877b961c45"
+    },
+    {
+      "name": "polish",
+      "category": "design",
+      "source": "~/.agents/skills/polish",
+      "destination": "plugins/design/skills/polish",
+      "sha256": "ea8ba554a4989ec946c899ab524f9ed8ac6dad9f8ef52fe13c6a4a10bca9c541"
+    },
+    {
+      "name": "portless",
+      "category": "core",
+      "source": "~/.agents/skills/portless",
+      "destination": "plugins/core/skills/portless",
+      "sha256": "cbf44cbdea1ec825c86396ccc902838b5f45a06f203f12470068ff3767c7971b"
+    },
+    {
+      "name": "postgres",
+      "category": "core",
+      "source": "~/.agents/skills/postgres",
+      "destination": "plugins/core/skills/postgres",
+      "sha256": "d6d6b2c5c7ea26f924ee274c9d527acd385e9b57b8f66e66211531d8b6c630ce"
+    },
+    {
+      "name": "pptx",
+      "category": "core",
+      "source": "~/.agents/skills/pptx",
+      "destination": "plugins/core/skills/pptx",
+      "sha256": "620818449fff5f5833d9cb4877b2afe3e433c14d27447e80bf1000466386e966"
+    },
+    {
+      "name": "prd",
+      "category": "knowledge",
+      "source": "~/.agents/skills/prd",
+      "destination": "plugins/knowledge/skills/prd",
+      "sha256": "f5395f014448e1e970cac40b8f814949b7fdbfe0b6db6be275be750895e955ca"
+    },
+    {
+      "name": "pricing-strategy",
+      "category": "knowledge",
+      "source": "~/.agents/skills/pricing-strategy",
+      "destination": "plugins/knowledge/skills/pricing-strategy",
+      "sha256": "d86827dd4b0bb3a1cc5c3584537ab03972c0e6b842b027404f1ecc1507ab086d"
+    },
+    {
+      "name": "prompt-engineering",
+      "category": "core",
+      "source": "~/.agents/skills/prompt-engineering",
+      "destination": "plugins/core/skills/prompt-engineering",
+      "sha256": "6280c7c8cc9e33b42ef69a326874cc80acc5bbe08859f4b79dc0fc69501e43a5"
+    },
+    {
+      "name": "prototype",
+      "category": "design",
+      "source": "~/.claude/skills/prototype",
+      "destination": "plugins/design/skills/prototype",
+      "sha256": "2ad8401c4deaddb54947fb65247f790e7b3d8784e35312bcbedbfb1d59cd89ce"
+    },
+    {
+      "name": "qa",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-qa",
+      "destination": "plugins/core/skills/qa",
+      "sha256": "2dcdaccbe10d42c67cc81d85fcd4ecf2186a772b0d0b6df7e80562efc009d2eb"
+    },
+    {
+      "name": "qa-only",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-qa-only",
+      "destination": "plugins/core/skills/qa-only",
+      "sha256": "62970f96861bb83b88f02a63be5c9ae631a1ac518c7ca86ca321795cb4c5e8dd"
+    },
+    {
+      "name": "quieter",
+      "category": "design",
+      "source": "~/.agents/skills/quieter",
+      "destination": "plugins/design/skills/quieter",
+      "sha256": "6139584407c67b899819a68ff37656e68c8999876c9d09b791206b061cbcaa91"
+    },
+    {
+      "name": "ralph-tui-prd",
+      "category": "knowledge",
+      "source": "~/.agents/skills/ralph-tui-prd",
+      "destination": "plugins/knowledge/skills/ralph-tui-prd",
+      "sha256": "9534f7cdf173c08ff084854934dc739dd94027dcb438fc14e96c87f2a272a7d8"
+    },
+    {
+      "name": "ralphy",
+      "category": "knowledge",
+      "source": "~/.claude/skills/ralphy",
+      "destination": "plugins/knowledge/skills/ralphy",
+      "sha256": "2929d65a0a62f4df103257e7e3dfccd3d25b52a35c5b37456069b6bdb89a81ff"
+    },
+    {
+      "name": "remotion-best-practices",
+      "category": "frontend",
+      "source": "~/.agents/skills/remotion-best-practices",
+      "destination": "plugins/frontend/skills/remotion-best-practices",
+      "sha256": "94c893d93051dff9b856c4ab713ddb8065cde2070b1e7b735f190db3a060ac22"
+    },
+    {
+      "name": "resend",
+      "category": "productivity",
+      "source": "~/.agents/skills/resend",
+      "destination": "plugins/productivity/skills/resend",
+      "sha256": "0836b46cf016a63105885ee371f0f8480bc29c20bb9d509f2bf7a6627cc1017e"
+    },
+    {
+      "name": "resend-inbound",
+      "category": "productivity",
+      "source": "~/.agents/skills/resend/resend-inbound",
+      "destination": "plugins/productivity/skills/resend-inbound",
+      "sha256": "1418b5320d36ba37ac969e0679e80d252331b012fded4a166b38830697d083b8"
+    },
+    {
+      "name": "responsive-design",
+      "category": "design",
+      "source": "~/.agents/skills/responsive-design",
+      "destination": "plugins/design/skills/responsive-design",
+      "sha256": "f14c547e481fc0a253406f6183378a5d7d6699b32a7b5f27920d3952f42309ec"
+    },
+    {
+      "name": "retro",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-retro",
+      "destination": "plugins/core/skills/retro",
+      "sha256": "8eda68de440b823fbc9378f8cddd341d07f1aef9fc70b9301facf6d368e372d9"
+    },
+    {
+      "name": "review",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-review",
+      "destination": "plugins/core/skills/review",
+      "sha256": "e6612ec848a81fc01b5d95b40af72544781b2ea20040a24b523911a11bd64925"
+    },
+    {
+      "name": "review-animations",
+      "category": "design",
+      "source": "~/.claude/skills/review-animations",
+      "destination": "plugins/design/skills/review-animations",
+      "sha256": "c04fa90301a259a805f2f05deaca88682932c81b0839319b90f3889acc7478e3"
+    },
+    {
+      "name": "scrape",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-scrape",
+      "destination": "plugins/core/skills/scrape",
+      "sha256": "0ffdd51be12859d8d14e67bcd78409e66fdb73f00e5ac76970babe19735b654d"
+    },
+    {
+      "name": "screenpipe-api",
+      "category": "design",
+      "source": "~/.claude/skills/screenpipe-api",
+      "destination": "plugins/design/skills/screenpipe-api",
+      "sha256": "702261cd640d310918606ac1bfe6d5c357f12c599f1fe2c466d041ee985f5c01"
+    },
+    {
+      "name": "screenpipe-cli",
+      "category": "productivity",
+      "source": "~/.claude/skills/screenpipe-cli",
+      "destination": "plugins/productivity/skills/screenpipe-cli",
+      "sha256": "12bee09de013b78a25c95c713afb2a915e06ea13598cb1a947ecf43cc8fc187b"
+    },
+    {
+      "name": "screenpipe-durable-learning",
+      "category": "productivity",
+      "source": "~/.claude/skills/screenpipe-durable-learning",
+      "destination": "plugins/productivity/skills/screenpipe-durable-learning",
+      "sha256": "932791ea4759bc9087227ffccaa1f38cc2f443ad9cdd264f86ed32ed74853ac7"
+    },
+    {
+      "name": "screenpipe-focus-review",
+      "category": "knowledge",
+      "source": "~/.claude/skills/screenpipe-focus-review",
+      "destination": "plugins/knowledge/skills/screenpipe-focus-review",
+      "sha256": "9bc1de21c2d000d10e5b89b6e64c82bdbcd6f50bf29703af785b94e1a8a41d52"
+    },
+    {
+      "name": "screenpipe-meeting-follow-up",
+      "category": "productivity",
+      "source": "~/.claude/skills/screenpipe-meeting-follow-up",
+      "destination": "plugins/productivity/skills/screenpipe-meeting-follow-up",
+      "sha256": "88b0e9323e422c78cfe68520c6553bfcca052d6877e0a5841f2b20d40d482b28"
+    },
+    {
+      "name": "screenpipe-meeting-prep",
+      "category": "knowledge",
+      "source": "~/.claude/skills/screenpipe-meeting-prep",
+      "destination": "plugins/knowledge/skills/screenpipe-meeting-prep",
+      "sha256": "0541a7f597c3ab25beb0baeb84aeb4e885c1dcdc44276e3f7d7f4653770cd2e1"
+    },
+    {
+      "name": "screenpipe-recall",
+      "category": "knowledge",
+      "source": "~/.claude/skills/screenpipe-recall",
+      "destination": "plugins/knowledge/skills/screenpipe-recall",
+      "sha256": "133aed29a86a87ada62dfab6af820f1d91f0453f46ccb0f44ae134b223915e95"
+    },
+    {
+      "name": "screenpipe-research-synthesis",
+      "category": "knowledge",
+      "source": "~/.claude/skills/screenpipe-research-synthesis",
+      "destination": "plugins/knowledge/skills/screenpipe-research-synthesis",
+      "sha256": "ee60ea0f2a2feb5b35b856805405fe3f7c03d5e45b386866ba998b5b94a08cda"
+    },
+    {
+      "name": "screenpipe-shareable-recap",
+      "category": "productivity",
+      "source": "~/.claude/skills/screenpipe-shareable-recap",
+      "destination": "plugins/productivity/skills/screenpipe-shareable-recap",
+      "sha256": "7e04082a0e8882a4696fed267182f2acf6574f99e02ff23628c05426734194f9"
+    },
+    {
+      "name": "screenpipe-worklog",
+      "category": "productivity",
+      "source": "~/.claude/skills/screenpipe-worklog",
+      "destination": "plugins/productivity/skills/screenpipe-worklog",
+      "sha256": "ebd85150997e19da7c7f2e0e090ed7f094e82233aa4d428b3ea3da3a2ac599d6"
+    },
+    {
+      "name": "screenshot",
+      "category": "core",
+      "source": "~/.claude/skills/screenshot",
+      "destination": "plugins/core/skills/screenshot",
+      "sha256": "081935a6a163277537d46365f49d6b4a3cb40b4748347e7e88759c5927fa8cf5"
+    },
+    {
+      "name": "send-email",
+      "category": "core",
+      "source": "~/.agents/skills/resend/send-email",
+      "destination": "plugins/core/skills/send-email",
+      "sha256": "ba24f45390f696b40795a635273880e7636ba60398d028fbe18b2c83c5752d0a"
+    },
+    {
+      "name": "seo",
+      "category": "core",
+      "source": "~/.agents/skills/seo",
+      "destination": "plugins/core/skills/seo",
+      "sha256": "f3e546112a3168515486c533d13156a1d4dcd9402f3d116730cef573a20e2804"
+    },
+    {
+      "name": "setup-browser-cookies",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-setup-browser-cookies",
+      "destination": "plugins/core/skills/setup-browser-cookies",
+      "sha256": "12fa8a90184bc66d0c5b52ef2c563600f328406b0805ee4f61407f547712157b"
+    },
+    {
+      "name": "setup-deploy",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-setup-deploy",
+      "destination": "plugins/core/skills/setup-deploy",
+      "sha256": "fc1b8f3c3c16b2c7583954eb78cb7dbda885232253a7a6f595a663ba0b4803d0"
+    },
+    {
+      "name": "setup-gbrain",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-setup-gbrain",
+      "destination": "plugins/core/skills/setup-gbrain",
+      "sha256": "ca06b090b1ebbcad8b3bbf5f896bd9bf7f64196abf8fed350a6ed07178880912"
+    },
+    {
+      "name": "ship",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-ship",
+      "destination": "plugins/core/skills/ship",
+      "sha256": "4bb7c6fc73ae3312e6d263ae242cf14f5eff1e76536630bf8692fc3c9c5c7264"
+    },
+    {
+      "name": "ship-learn-next",
+      "category": "core",
+      "source": "~/.agents/skills/ship-learn-next",
+      "destination": "plugins/core/skills/ship-learn-next",
+      "sha256": "a040645a50e318352061f2baa41a7c9459db32cab2cdc207020beacacd7e9dde"
+    },
+    {
+      "name": "skill-creator",
+      "category": "core",
+      "source": "~/.agents/skills/skill-creator",
+      "destination": "plugins/core/skills/skill-creator",
+      "sha256": "8c0ce23bb87be91f5b0853c2e9815617c3858b63acdddfe5da47d2c2d3a60816"
+    },
+    {
+      "name": "skill-doctor",
+      "category": "core",
+      "source": "~/.agents/skills/skill-doctor",
+      "destination": "plugins/core/skills/skill-doctor",
+      "sha256": "2cd9eb4d0a707320211e536456bb541eb7d737388f559bb2688bdcf50dcd512b"
+    },
+    {
+      "name": "skillify",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-skillify",
+      "destination": "plugins/core/skills/skillify",
+      "sha256": "b6ad7d3e54d0131dd31382250546dfe92b0d83518e33965714b6e4964c3c4bee"
+    },
+    {
+      "name": "smu-qa",
+      "category": "core",
+      "source": "~/.claude/skills/smu-qa",
+      "destination": "plugins/core/skills/smu-qa",
+      "sha256": "6dd91306ead0450f0d6a98c383168908c91a8ae8f72e790db3773b14f92f3b77"
+    },
+    {
+      "name": "software-architecture",
+      "category": "design",
+      "source": "~/.claude/skills/software-architecture",
+      "destination": "plugins/design/skills/software-architecture",
+      "sha256": "9fdcdb61e44bd8b66da6d023282e1924b2887079695a82c14c4c3dd43c95c463"
+    },
+    {
+      "name": "spec",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-spec",
+      "destination": "plugins/core/skills/spec",
+      "sha256": "ffe6cbde78e7912892de63a778bee3d153d6c32cd73c933471e89824716676f5"
+    },
+    {
+      "name": "spec-interviewer",
+      "category": "design",
+      "source": "~/.agents/skills/spec-interviewer",
+      "destination": "plugins/design/skills/spec-interviewer",
+      "sha256": "ca3848d733854038203c2d9ad50bc7c8aaf3ac039bfda24858606847fb95b5f3"
+    },
+    {
+      "name": "steve-jobs-design",
+      "category": "design",
+      "source": "~/.agents/skills/steve-jobs-design",
+      "destination": "plugins/design/skills/steve-jobs-design",
+      "sha256": "87443a12016011ffe78897f648888bd67965adfc3993d81d6bc6a6bfb5f51b83"
+    },
+    {
+      "name": "steve-jobs-feature-intelligence",
+      "category": "frontend",
+      "source": "~/.agents/skills/steve-jobs-feature-intelligence",
+      "destination": "plugins/frontend/skills/steve-jobs-feature-intelligence",
+      "sha256": "b8dc6d866bce773e753688798f0826b913876124d361687244c884af2e7489ed"
+    },
+    {
+      "name": "subagent-driven-development",
+      "category": "core",
+      "source": "~/.agents/skills/subagent-driven-development",
+      "destination": "plugins/core/skills/subagent-driven-development",
+      "sha256": "0c6dfed398877d6065b07f961e59e314be8389a0a2d806c368fd8ce3d30f69c5"
+    },
+    {
+      "name": "supabase",
+      "category": "frontend",
+      "source": "~/.agents/skills/supabase",
+      "destination": "plugins/frontend/skills/supabase",
+      "sha256": "3c3f8be0662aaaed8900a2bb9bb8817a72a8eb91312ae9594b6c136dbd0ab875"
+    },
+    {
+      "name": "supabase-postgres-best-practices",
+      "category": "frontend",
+      "source": "~/.agents/skills/supabase-postgres-best-practices",
+      "destination": "plugins/frontend/skills/supabase-postgres-best-practices",
+      "sha256": "ccd6e4596bd51cf344fe76c464867c541ccc16b6d90ae7a9db449fb17588613b"
+    },
+    {
+      "name": "supermemory",
+      "category": "knowledge",
+      "source": "~/.claude/skills/supermemory",
+      "destination": "plugins/knowledge/skills/supermemory",
+      "sha256": "cfa1d33d5d1f7e8b5212e91bef28a4c8428b5d55789ae8274c43dca462b21eb3"
+    },
+    {
+      "name": "sync-gbrain",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-sync-gbrain",
+      "destination": "plugins/core/skills/sync-gbrain",
+      "sha256": "1ab2ffd33ced57fd12a196a28f78fa85368427b9235237812d257083788acf07"
+    },
+    {
+      "name": "systematic-debugging",
+      "category": "core",
+      "source": "~/.agents/skills/systematic-debugging",
+      "destination": "plugins/core/skills/systematic-debugging",
+      "sha256": "4999cb851360485eca5074e727bbdd62ef20549c5d5b01216fcbf5831badb473"
+    },
+    {
+      "name": "tailored-resume-generator",
+      "category": "core",
+      "source": "~/.agents/skills/tailored-resume-generator",
+      "destination": "plugins/core/skills/tailored-resume-generator",
+      "sha256": "7a64d9aa79a21a24f50c90a10d1a30f3c8a686d4869648e976ef69a784ba16e6"
+    },
+    {
+      "name": "tapestry",
+      "category": "knowledge",
+      "source": "~/.agents/skills/tapestry",
+      "destination": "plugins/knowledge/skills/tapestry",
+      "sha256": "88bb1ec1e323019c2706ab0ad084daa2265da37bc82c9f266a5d64ec41df6a28"
+    },
+    {
+      "name": "teach-impeccable",
+      "category": "design",
+      "source": "~/.agents/skills/teach-impeccable",
+      "destination": "plugins/design/skills/teach-impeccable",
+      "sha256": "6a19c62d6efd98266a02f593b6c732c4b8c740f98c586755201945bdd41ec2c7"
+    },
+    {
+      "name": "terminal-title",
+      "category": "core",
+      "source": "~/.agents/skills/terminal-title",
+      "destination": "plugins/core/skills/terminal-title",
+      "sha256": "8284705ec9211e08378046cde5004bb83bf4b4c51895ea29996c966d9a91e530"
+    },
+    {
+      "name": "test-audit",
+      "category": "design",
+      "source": "~/.agents/skills/test-audit",
+      "destination": "plugins/design/skills/test-audit",
+      "sha256": "01c421239797a8950fe1287f293d2e05f127e69ac457d1b9cdf9b296ac77eacd"
+    },
+    {
+      "name": "test-driven-development",
+      "category": "core",
+      "source": "~/.claude/skills/test-driven-development",
+      "destination": "plugins/core/skills/test-driven-development",
+      "sha256": "7dee67b4af6bdccc7a914ca34533184d64592d0f5b23aeae631538168db14994"
+    },
+    {
+      "name": "test-fixing",
+      "category": "core",
+      "source": "~/.claude/skills/test-fixing",
+      "destination": "plugins/core/skills/test-fixing",
+      "sha256": "391f286dd828239fe6d82679204eaf4c850816e363000dc9ee99f1d5e253f108"
+    },
+    {
+      "name": "typesafe-ai",
+      "category": "core",
+      "source": "~/.agents/skills/typesafe-ai",
+      "destination": "plugins/core/skills/typesafe-ai",
+      "sha256": "71ea90d7906c6554c4f4c460ef7361b2d26f59116ccdae986dc6d997b9389f52"
+    },
+    {
+      "name": "typeset",
+      "category": "design",
+      "source": "~/.agents/skills/typeset",
+      "destination": "plugins/design/skills/typeset",
+      "sha256": "19cab155e2d7afa9b9c116506f3f8d6fff4f1024ecab3352f442a85e2a4af246"
+    },
+    {
+      "name": "ui-skills",
+      "category": "core",
+      "source": "~/.agents/skills/ui-skills",
+      "destination": "plugins/core/skills/ui-skills",
+      "sha256": "44266f3a4aebcf91cc37836dd5080fa47af71871735fbb00a17b3331533b9028"
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "category": "design",
+      "source": "~/.agents/skills/ui-ux-pro-max",
+      "destination": "plugins/design/skills/ui-ux-pro-max",
+      "sha256": "b3ab45c714a7222dbf41bff153fc0570640e356ba272417d396da950a7863a78"
+    },
+    {
+      "name": "unfreeze",
+      "category": "core",
+      "source": "~/.agents/skills/gstack/.agents/skills/gstack-unfreeze",
+      "destination": "plugins/core/skills/unfreeze",
+      "sha256": "a330adee935ffc70f7a34794e353d7ef6243e721c0650793fe442f73aaa2d815"
+    },
+    {
+      "name": "userinterface-wiki",
+      "category": "design",
+      "source": "~/.agents/skills/userinterface-wiki",
+      "destination": "plugins/design/skills/userinterface-wiki",
+      "sha256": "663ccc340e7ed1ed3991793625dd363d684117de29cbd81d8653355421e330da"
+    },
+    {
+      "name": "using-git-worktrees",
+      "category": "core",
+      "source": "~/.agents/skills/using-git-worktrees",
+      "destination": "plugins/core/skills/using-git-worktrees",
+      "sha256": "1e22d839aa9331fce03da77983a703f74f6738e26d5bec2a24037e854a59048a"
+    },
+    {
+      "name": "variate",
+      "category": "core",
+      "source": "~/.agents/skills/variate",
+      "destination": "plugins/core/skills/variate",
+      "sha256": "19e3fba5e7c3bbd6f5155f0c00095f0a725fe415bec4f12a3c01ea5357e21230"
+    },
+    {
+      "name": "vercel-cli",
+      "category": "frontend",
+      "source": "~/.agents/skills/vercel-cli",
+      "destination": "plugins/frontend/skills/vercel-cli",
+      "sha256": "c1570da7a50326a90007d8dc2d7ee51d7412836add3c8acb8ee14e113f24580d"
+    },
+    {
+      "name": "vercel-composition-patterns",
+      "category": "core",
+      "source": "~/.agents/skills/vercel-composition-patterns",
+      "destination": "plugins/core/skills/vercel-composition-patterns",
+      "sha256": "e38e0eaa609316b10423a9a138ed95e35099accd3f735585295c8a8f165c28a3"
+    },
+    {
+      "name": "vercel-deploy",
+      "category": "frontend",
+      "source": "~/.claude/skills/vercel-deploy",
+      "destination": "plugins/frontend/skills/vercel-deploy",
+      "sha256": "bb45d7d5699717f7b477ec17b8f9a426b1a6a20c96741e2e0f6abaa68a7d773f"
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "category": "frontend",
+      "source": "~/.agents/skills/vercel-react-best-practices",
+      "destination": "plugins/frontend/skills/vercel-react-best-practices",
+      "sha256": "6378620591a6c9e3008653f1e5ccdbf1fdbddedd2ebd943ba951eff8482b1103"
+    },
+    {
+      "name": "vercel-react-native-skills",
+      "category": "core",
+      "source": "~/.agents/skills/vercel-react-native-skills",
+      "destination": "plugins/core/skills/vercel-react-native-skills",
+      "sha256": "4012750a5ccbe064ca04af3835d5d1b011979d2d09d9b6df1c8128fac58e0a66"
+    },
+    {
+      "name": "video-generator",
+      "category": "design",
+      "source": "~/.agents/skills/video-generator",
+      "destination": "plugins/design/skills/video-generator",
+      "sha256": "442e6a86c10420735596ecf868cd0881d441009e916cdeebdad0d3f24ba097be"
+    },
+    {
+      "name": "web-artifacts-builder",
+      "category": "frontend",
+      "source": "~/.agents/skills/web-artifacts-builder",
+      "destination": "plugins/frontend/skills/web-artifacts-builder",
+      "sha256": "81c5002c6643b0de7b8710b00e7a9038daa6fb9b68d59870ee6adb12da8d10f8"
+    },
+    {
+      "name": "web-design-guidelines",
+      "category": "design",
+      "source": "~/.agents/skills/web-design-guidelines",
+      "destination": "plugins/design/skills/web-design-guidelines",
+      "sha256": "fc48547ce7b3f384043d0804d823a0c6bd02f4a94a484bc724551d28fcd6b90d"
+    },
+    {
+      "name": "web-quality-audit",
+      "category": "design",
+      "source": "~/.agents/skills/web-quality-audit",
+      "destination": "plugins/design/skills/web-quality-audit",
+      "sha256": "aaada64b636b867d737dfd488fd947a7ca5c280983caf3b96b8915e08ad7ef01"
+    },
+    {
+      "name": "webapp-testing",
+      "category": "design",
+      "source": "~/.claude/skills/webapp-testing",
+      "destination": "plugins/design/skills/webapp-testing",
+      "sha256": "51b7349e77ec63b7744a6f63647e7566a0b4d2e301121cc10e8c2113af6556a2"
+    },
+    {
+      "name": "xlsx",
+      "category": "knowledge",
+      "source": "~/.agents/skills/xlsx",
+      "destination": "plugins/knowledge/skills/xlsx",
+      "sha256": "020ccdb5932257b66c638ec1157ea248d57fa52c8c01f1f68b559b5970c7df35"
+    },
+    {
+      "name": "yeet",
+      "category": "core",
+      "source": "~/.claude/skills/yeet",
+      "destination": "plugins/core/skills/yeet",
+      "sha256": "2b4583b296a3a043b9002cd74e3ca5407fce832598dcd428272da08a9839f64b"
+    }
+  ],
+  "skipped": []
+}

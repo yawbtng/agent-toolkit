@@ -1,0 +1,38 @@
+[
+  {
+    "name": "redesign-existing-projects",
+    "source": "https://github.com/leonxlnx/taste-skill",
+    "source_path": "skills/redesign-skill",
+    "license": "MIT",
+    "category": "design",
+    "security": "Agent Trust Hub pass; Socket pass; Snyk pass",
+    "reason": "Adds an existing-product redesign workflow that complements greenfield design and visual QA skills."
+  },
+  {
+    "name": "codebase-design",
+    "source": "https://github.com/mattpocock/skills",
+    "source_path": "skills/engineering/codebase-design",
+    "license": "MIT",
+    "category": "core",
+    "security": "Agent Trust Hub pass; Socket pass; Snyk pass",
+    "reason": "Adds a precise vocabulary for deep modules, interfaces, seams, and testability."
+  },
+  {
+    "name": "domain-modeling",
+    "source": "https://github.com/mattpocock/skills",
+    "source_path": "skills/engineering/domain-modeling",
+    "license": "MIT",
+    "category": "core",
+    "security": "Agent Trust Hub pass; Socket pass; Snyk pass",
+    "reason": "Adds durable glossary and ADR practices for domain-driven architecture work."
+  },
+  {
+    "name": "diagnosing-bugs",
+    "source": "https://github.com/mattpocock/skills",
+    "source_path": "skills/engineering/diagnosing-bugs",
+    "license": "MIT",
+    "category": "core",
+    "security": "Agent Trust Hub pass; Socket pass; Snyk pass",
+    "reason": "Adds a tight feedback-loop discipline for hard bugs and performance regressions."
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "name": "agent-core",
+  "version": "0.1.0",
+  "description": "Planning, architecture, debugging, review, verification, and delivery skills.",
+  "repository": "https://github.com/yawbtng/agent-toolkit",
+  "keywords": ["Development Tools"]
+}

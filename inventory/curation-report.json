@@ -1,0 +1,196 @@
+{
+  "baseline": [
+    {
+      "name": "accessibility",
+      "source": "plugins/design/skills/accessibility"
+    },
+    {
+      "name": "animation-accessibility",
+      "source": "plugins/design/skills/animation-accessibility"
+    },
+    {
+      "name": "animation-performance",
+      "source": "plugins/frontend/skills/animation-performance"
+    },
+    {
+      "name": "best-practices",
+      "source": "plugins/design/skills/best-practices"
+    },
+    {
+      "name": "brainstorming",
+      "source": "plugins/design/skills/brainstorming"
+    },
+    {
+      "name": "code-deslop",
+      "source": "plugins/design/skills/code-deslop"
+    },
+    {
+      "name": "codebase-design",
+      "source": "plugins/core/skills/codebase-design"
+    },
+    {
+      "name": "copywriting",
+      "source": "plugins/productivity/skills/copywriting"
+    },
+    {
+      "name": "core-web-vitals",
+      "source": "plugins/frontend/skills/core-web-vitals"
+    },
+    {
+      "name": "css-animations",
+      "source": "plugins/design/skills/css-animations"
+    },
+    {
+      "name": "design-taste-frontend",
+      "source": "plugins/design/skills/design-taste-frontend"
+    },
+    {
+      "name": "deslop",
+      "source": "plugins/core/skills/deslop"
+    },
+    {
+      "name": "diagnosing-bugs",
+      "source": "plugins/core/skills/diagnosing-bugs"
+    },
+    {
+      "name": "domain-modeling",
+      "source": "plugins/core/skills/domain-modeling"
+    },
+    {
+      "name": "emil-design-eng",
+      "source": "plugins/design/skills/emil-design-eng"
+    },
+    {
+      "name": "figma",
+      "source": "plugins/design/skills/figma"
+    },
+    {
+      "name": "figma-implement-design",
+      "source": "plugins/design/skills/figma-implement-design"
+    },
+    {
+      "name": "find-skills",
+      "source": "plugins/core/skills/find-skills"
+    },
+    {
+      "name": "frontend-design",
+      "source": "plugins/frontend/skills/frontend-design"
+    },
+    {
+      "name": "gh-address-comments",
+      "source": "plugins/core/skills/gh-address-comments"
+    },
+    {
+      "name": "hallmark",
+      "source": "plugins/design/skills/hallmark"
+    },
+    {
+      "name": "harden",
+      "source": "plugins/core/skills/harden"
+    },
+    {
+      "name": "motion-react",
+      "source": "plugins/design/skills/motion-react"
+    },
+    {
+      "name": "next-best-practices",
+      "source": "plugins/frontend/skills/next-best-practices"
+    },
+    {
+      "name": "optimize",
+      "source": "plugins/frontend/skills/optimize"
+    },
+    {
+      "name": "performance",
+      "source": "plugins/frontend/skills/performance"
+    },
+    {
+      "name": "pick-ui-library",
+      "source": "plugins/design/skills/pick-ui-library"
+    },
+    {
+      "name": "playwright-skill",
+      "source": "plugins/design/skills/playwright-skill"
+    },
+    {
+      "name": "prd",
+      "source": "plugins/knowledge/skills/prd"
+    },
+    {
+      "name": "prompt-engineering",
+      "source": "plugins/core/skills/prompt-engineering"
+    },
+    {
+      "name": "responsive-design",
+      "source": "plugins/design/skills/responsive-design"
+    },
+    {
+      "name": "seo",
+      "source": "plugins/core/skills/seo"
+    },
+    {
+      "name": "skill-creator",
+      "source": "plugins/core/skills/skill-creator"
+    },
+    {
+      "name": "skill-doctor",
+      "source": "plugins/core/skills/skill-doctor"
+    },
+    {
+      "name": "software-architecture",
+      "source": "plugins/design/skills/software-architecture"
+    },
+    {
+      "name": "spec-interviewer",
+      "source": "plugins/design/skills/spec-interviewer"
+    },
+    {
+      "name": "subagent-driven-development",
+      "source": "plugins/core/skills/subagent-driven-development"
+    },
+    {
+      "name": "systematic-debugging",
+      "source": "plugins/core/skills/systematic-debugging"
+    },
+    {
+      "name": "test-audit",
+      "source": "plugins/design/skills/test-audit"
+    },
+    {
+      "name": "test-fixing",
+      "source": "plugins/core/skills/test-fixing"
+    },
+    {
+      "name": "ui-skills",
+      "source": "plugins/core/skills/ui-skills"
+    },
+    {
+      "name": "userinterface-wiki",
+      "source": "plugins/design/skills/userinterface-wiki"
+    },
+    {
+      "name": "using-git-worktrees",
+      "source": "plugins/core/skills/using-git-worktrees"
+    },
+    {
+      "name": "vercel-composition-patterns",
+      "source": "plugins/core/skills/vercel-composition-patterns"
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "source": "plugins/frontend/skills/vercel-react-best-practices"
+    },
+    {
+      "name": "web-design-guidelines",
+      "source": "plugins/design/skills/web-design-guidelines"
+    },
+    {
+      "name": "web-quality-audit",
+      "source": "plugins/design/skills/web-quality-audit"
+    },
+    {
+      "name": "webapp-testing",
+      "source": "plugins/design/skills/webapp-testing"
+    }
+  ]
+}
